@@ -223,7 +223,7 @@ a.learn {
 .container-2 {
     padding: 0;
     background-color: white;
-    margin: 70px auto;
+    margin: 4.375rem auto;
     width: 100vw;
     height: 40vw;
 }
@@ -398,7 +398,7 @@ div.container2 {
     border-radius: 5px;
 }
 .content h2 {
-     margin: 1rem auto 0 3rem;
+    margin: 1rem auto 0 3rem;
     font-size: 2rem;
 }
 .content p {
@@ -525,6 +525,7 @@ div.container2 {
     background-color: white;
     color: black;
 }
+
 .costs {
     display: flex;
     justify-content: center;
