@@ -38,10 +38,10 @@ body {
     justify-content: center;
     padding: 0;
     margin: 0;
-    gap: 25px;
+    gap: 1.5rem;
 }
 .menu {
-    margin-right: 15px;
+    margin-right: 0.9rem;
 }
 .menu ul {
     list-style: none;
@@ -50,7 +50,7 @@ body {
     justify-content: center;
     padding: 0;
     margin: 0;
-    gap: 15px;
+    gap: 0.9rem;
 }
 li>a {
     text-decoration: none;
@@ -68,14 +68,14 @@ li>a.icon1:hover {
     border-radius: 5px;
 }
 .logo {
-    margin-left: 25px;
-    padding: 5px;
+    margin-left: 1.5rem;
+    padding: 0.3;
     align-items: center;
 }
 
 /*===== FIRST SLIDER STYLES =====*/
 .container-1 {
-    padding-top: 65px;
+    padding-top: 60px;
     background-color: white;
     width: 100%;
     height: 30vw;
@@ -85,6 +85,25 @@ li>a.icon1:hover {
     margin: 0;
     width: 100%;
     height: 100%;
+}
+.left, .right {
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    padding: 0.45rem 0.75rem;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 0 10px rgb(90, 90, 90);
+    font-size: 1.5rem;
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+.right {
+    right: 5%;
+}
+.left {
+    left: 5%;
 }
 .slider-1 {
     width: 100%;
@@ -156,7 +175,7 @@ li>a.icon1:hover {
     transform: scale(1.2);
 }
 .container1 {
-    padding-top: 30px;
+    padding-top: 1.875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,31 +183,39 @@ li>a.icon1:hover {
     position: relative;
     z-index: 1;
 }
-.container h1 {
+.container1 h1 {
+    font-size: 3rem;
     font-weight: bold;
-    font-size: larger;
+    margin: 0;
+    height: 8vh;
+}
+.container1 p {
+    font-size: 1.2rem;
 }
 .container1 p .available {
-    font-weight: bold;
     color: white;
-    padding: 2px;
 }
 a.orders {
+    font-size: small;
+    font-weight: bold;
     background-color: blue;
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 4.5rem;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 a.learn {
+    font-size: small;
+    font-weight: bold;
     background-color: white;
     color: black;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 4.5rem;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 5px;
 }
-.slider-1-buttons {
-    padding: 5px;
+.slider1-buttons {
+    margin-top: 1.5rem;
+    padding: 0.3rem;
 }
 
 
@@ -277,8 +304,8 @@ a.learn {
 }
 
 div.container2 {
-    margin: 15px 10px;
-    padding: 30px;
+    margin: 0.9rem 0.625rem;
+    padding: 1.875rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -292,12 +319,12 @@ div.container2 {
     padding: 0;
 
     position: relative;
-    top: -300px;
+    top: -18.75rem;
 }
 .container2 h2 {
     font-size: 3rem;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     padding: 0;
 }
 .container2-link {
@@ -307,7 +334,7 @@ div.container2 {
     font-size: 1.5rem;
     margin-top: 0px;
     padding-top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 
 }
 .order-button {
@@ -401,8 +428,8 @@ div.container2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 50px;
-    padding: 15px;
+    margin-bottom: 3.125rem;
+    padding: 0.9rem;
     background-color: white;
     
 }
@@ -411,7 +438,7 @@ div.container2 {
     justify-content: center;
     height: 90vh;
     border-radius: 10px;
-    margin: 10px;
+    margin: 0.625rem;
     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 
     background-size: cover;
@@ -428,7 +455,7 @@ div.container2 {
 }
 .text-energy {
     box-sizing: border-box;
-    margin-left: 5px;
+    margin-left: 0.312rem;
     position: relative;
     top: 55%;
     color: white;
@@ -436,23 +463,23 @@ div.container2 {
 }
 .text-energy h2 {
     font-size: 2.5rem;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 
 }
 .text-energy p {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 .blue {
-    margin-left: 20px;
-    padding: 10px 15px;
+    margin-left: 1.25rem;
+    padding: 0.625rem 0.937rem;
     text-decoration: none;
     border-radius: 5px;
     background-color: rgb(73, 73, 255);
     color: white;
 }
 .white {
-    margin-left: 20px;
-    padding: 10px 15px;
+    margin-left: 1.25rem;
+    padding: 0.625rem 0.937rem;
     background-color: white;
     color: black;
     text-decoration: none;
@@ -465,17 +492,17 @@ div.container2 {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    margin: 50px;
-    padding: 10px;
+    margin: 3.125rem;
+    padding: 0.625rem;
 }
 .find-charger {
     width: 53%;
 }
 .find-charger h2 {
     font-size: 3.5rem;
-    margin-top: 30px;
-    padding-top: 0px;
-    height: 20px;
+    margin-top: 1.875rem;
+    padding-top: 0;
+    height: 1.25rem;
 }
 .find-charger p {
     color: rgb(139, 139, 139);
@@ -483,7 +510,7 @@ div.container2 {
 }
 .view, .learn {
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 0.625rem 0.937rem;
     border-radius: 5px;
 }
 .view:hover {
@@ -503,7 +530,7 @@ div.container2 {
     justify-content: center;
     align-items: center;
 
-    padding-right: 10px;
+    padding-right: 0.625rem;
     background-color: white;
 }
 .costs div {
@@ -511,7 +538,7 @@ div.container2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .costs div h4 {
     color: rgb(139, 139, 139);
@@ -519,17 +546,17 @@ div.container2 {
 
 }
 .paragraph {
-    margin-left: -130px;
+    margin-left: -8.125rem;
 }
 .paragraph2 {
     width: 20%;
-    margin-left: -170px;
+    margin-left: -10.625rem;
     height: 1.2rem;
 }
 .header-icon {
     display: flex;
     flex-direction: row;
-    height: 40px;
+    height: 2.5rem;
 
 }
 .costs div h2 {
@@ -540,7 +567,7 @@ div.container2 {
 }
 
 h2 .svg {
-    padding: 0px;
+    padding: 0;
 }
 .costs div h2 span {
     color: grey;
@@ -554,11 +581,11 @@ h2 .svg {
     padding: 0;
     color: white;
     width: 100vw;
-    margin-bottom: 150px;
+    margin-bottom: 9.375rem;
 }
 .slider-wrapper-3 {
     position: relative;
-    margin: auto 30px;
+    margin: auto 1.875rem;
     width: 100vw;
     height: 90vh;
 }
@@ -600,7 +627,7 @@ h2 .svg {
     flex-shrink: 0;
     flex-basis: 60%;
     width: 80vw;
-    height: 600px;
+    height: 37.5rem;
     scroll-snap-align: start;
     align-items: center;
     justify-content: center;
@@ -655,7 +682,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     padding-bottom: 4rem;
 
     font-size: smaller;
@@ -686,7 +713,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    padding: 10px 24px;
+    padding: 0.625rem 1.5rem;
 }
 .button1 {
     display: flex;
@@ -696,8 +723,8 @@ footer {
     align-items: center;
     width: 30rem;
 
-    margin-right: 20px;
-    padding: 9px 30px 9px 10px;
+    margin-right: 1.25rem;
+    padding: 0.5625rem 1.875rem 0.5625rem 0.625rem;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -712,8 +739,8 @@ footer {
     justify-content: center;
     width: 12rem;
 
-    margin-left: 20px;
-    padding: 9px 20px;
+    margin-left: 1.25rem;
+    padding: 0.5625rem 1.25rem;
     border-radius: 5px;
     text-decoration: none;
     color: rgb(54, 54, 54);
@@ -740,29 +767,3 @@ footer {
     color: rgb(66, 66, 66) 
 }
 
-/*MEDIA QUERIES*/
-/*TABLET*/
-@media (max-width: 1024px) {
-    body{
-        width: 100%;
-        height: 100vh;
-        overflow-x: hidden;
-
-    }
-    .container-1, .container-2, .container-3 {
-        padding: 0;
-        color: white;
-        width: 100%;
-        height: 100%;
-        margin-bottom: 10%;
-    }
-    img {
-        width: 100%;
-        height: auto;
-    }
-
-}
-/*PHONES*/
-@media (max-width: 600px) {
-
-}
